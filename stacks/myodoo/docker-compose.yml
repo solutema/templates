@@ -1,0 +1,41 @@
+services:
+  postgres:
+    container_name: ${COMPOSE_PROJECT_NAME}-postgres
+    image: ${POSTGRES_IMAGE}:${POSTGRES_TAG}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+      SUPERUSER_USER: ${SUPERUSER_USER}
+      SUPERUSER_PASS: ${SUPERUSER_PASS}
+      DB_EXTENSION: ${DB_EXTENSION}
+    restart: unless-stopped
+
+  odoo:
+    container_name: ${COMPOSE_PROJECT_NAME}-app
+    image: ${ODOO_IMAGE}:${ODOO_TAG}
+    restart: unless-stopped
+    links:
+      - postgres:postgres
+    tty: true
+    volumes:
+      - extra-addons:/mnt/extra-addons
+    command: -- --dev=reload
+    environment:
+      HOST: ${COMPOSE_PROJECT_NAME}-postgres
+      USER: ${SUPERUSER_USER}
+      PASSWORD: ${SUPERUSER_PASS}
+      VIRTUAL_PORT: 8069
+      VIRTUAL_HOST: ${URL},www.${URL}
+      LETSENCRYPT_HOST: ${URL},www.${URL}
+
+volumes:
+  postgres-data:
+  extra-addons:
+
+networks:
+  default:
+    name: ${NETWORK}
+    external: true

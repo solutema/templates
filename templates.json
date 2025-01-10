@@ -737,6 +737,86 @@
     },
     {
       "type": 3,
+      "title": "My Odoo",
+      "description": "Open-source business apps.",
+      "categories": ["project-management"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/solutema/templates/main/stacks/odoo/logo/logo.png",
+      "repository": {
+        "url": "https://github.com/solutema/templates",
+        "stackfile": "stacks/myodoo/docker-compose.yml"
+      },
+      "env": [
+        {
+          "default": "code.gruposolutema.com/gruposolutema/postgres",
+          "label": "PostgreSQL Image",
+          "name": "POSTGRES_IMAGE"
+        },
+        {
+          "default": "16.6",
+          "label": "PostgreSQL Tag",
+          "name": "POSTGRES_TAG"
+        },
+        {
+          "default": "odoo",
+          "label": "Database Username",
+          "name": "DB_USER"
+        },
+        {
+          "default": "odoo",
+          "label": "Database Password for User",
+          "name": "DB_PASS"
+        },
+        {
+          "default": "postgres",
+          "label": "Database Name",
+          "name": "DB_NAME"
+        },
+        {
+          "label": "Super User",
+          "name": "SUPERUSER_USER"
+        },
+        {
+          "label": "Root Password",
+          "name": "SUPERUSER_PASS"
+        },
+        {
+          "default": "unaccent", 
+          "label": "Database Extension",
+          "name": "DB_EXTENSION"
+        },        
+        {
+          "default": "code.gruposolutema.com/gruposolutema/odoo",
+          "label": "Odoo Image",
+          "name": "ODOO_IMAGE"
+        },
+        {
+          "default": "16.0-20241209",
+          "label": "Odoo Tag",
+          "name": "ODOO_TAG"
+        },
+          {
+          "default": "odoo.example.com",
+          "label": "URL",
+          "name": "URL"
+        },
+        {
+          "default": "proxy",
+          "label": "Network Name",
+          "name": "NETWORK"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/var/lib/postgresql/data"
+        },
+        {
+          "container": "/mnt/extra-addons"
+        }
+      ]
+    },
+    {
+      "type": 3,
       "title": "OpenLDAP",
       "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol",
       "note": "Deploys an OpenLDAP Server.",
