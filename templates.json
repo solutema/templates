@@ -2064,6 +2064,31 @@
           "name": "NETWORK"
         }
       ]
+    },
+    {
+      "type": 3,
+      "title": "Vaultwarden",
+      "description": "Vaultwarden is a trusted password manager for passwords and passkeys at home or at work, on any browser or device.",
+      "note": "Deploys a Vaultwarden Server.",
+      "categories": ["Password Manager"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/solutema/templates/main/stacks/vaultwarden/logo/logo.png",
+      "repository": {
+        "url": "https://github.com/solutema/templates",
+        "stackfile": "stacks/vaultwarden/docker-compose.yml"
+      },
+      "env": [
+        {
+          "default": "passwords.example.com",
+          "label": "Site URL",
+          "name": "SITE_URL"
+        },
+        {
+          "default": "proxy",
+          "label": "Network name",
+          "name": "NETWORK"
+        }
+      ]
     }
   ]
 }
