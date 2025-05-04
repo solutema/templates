@@ -2079,6 +2079,16 @@
       },
       "env": [
         {
+          "default": "vaultwarden/server",
+          "label": "Vaultwarden Image",
+          "name": "VAULTWARDEN_IMAGE"
+        },
+        {
+          "default": "1.33.2-alpine",
+          "label": "Vaultwarden Tag",
+          "name": "VAULTWARDEN_TAG"
+        },
+        {
           "default": "passwords.example.com",
           "label": "Site URL",
           "name": "SITE_URL"
