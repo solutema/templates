@@ -8,7 +8,6 @@ services:
     volumes:
       - vw-data:/data/
     environment:
-      DOMAIN: www.${SITE_URL}
       WEBSOCKET_ENABLED: true
       SIGNUPS_ALLOWED: true
       VIRTUAL_HOST: ${SITE_URL},www.${SITE_URL}
