@@ -1,7 +1,8 @@
 {
-  "version": "2",
+  "version": "3",
   "templates": [
       {
+      "id": 1,
       "type": 3,
       "title": "Android",
       "description": "Android",
@@ -42,6 +43,7 @@
       ]
       },
       {
+      "id": 2,
       "type": 3,
       "title": "ApiOpenStudio",
       "description": "ApiOpenStudio setup with a MySQL database",
@@ -97,6 +99,7 @@
       ]
       },
       {
+      "id": 3,
       "type": 3,
       "title": "Gitea",
       "description": "Gitea setup with a MySQL database",
@@ -165,6 +168,7 @@
       ]
       },
       {
+      "id": 4,
       "type": 3,
       "title": "Gitea act runner",
       "description": "Gitea runner setup",
@@ -203,6 +207,7 @@
        ]
     },
     {
+      "id": 5,
       "type": 3,
       "title": "GitLab CE",
       "description": "GitLab, is an Open-source end-to-end software development platform",
@@ -297,6 +302,7 @@
       ]
     },
     {
+      "id": 6,
       "type": 3,
       "title": "GitLab CE Runner",
       "description": "Gitlab Runner is an application that works with GitLab CI/CD to run the job in a pipeline.",
@@ -332,6 +338,7 @@
       ]
     },
     {
+      "id": 7,
       "type": 3,
       "title": "GitLab CE Runner Register",
       "description": "Gitlab Runner register is an application that works with GitLab CI/CD to register the runner.",
@@ -381,6 +388,7 @@
       ]
     },
     {
+      "id": 8,
       "type": 3,
       "title": "GNU Health",
       "description": "GNU Health is a free/libre health and hospital information system.",
@@ -474,6 +482,7 @@
       ]
       },
       {
+      "id": 9,
       "type": 3,
       "title": "Grav",
       "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony.",
@@ -543,6 +552,7 @@
         ]
       },
       {
+      "id": 10,
       "type": 3,
       "title": "Gravitee",
       "description": "Gravitee helps organizations manage and secure their entire API lifecycle with solutions for API design, management, security, productization, real-time observability, and more.",
@@ -602,7 +612,8 @@
         }
         ]
       },
-    {
+      {
+      "id": 11,
       "type": 3,
       "title": "Nextcloud",
       "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
@@ -669,6 +680,7 @@
       ]
     },
     {
+      "id": 12,
       "type": 3,
       "title": "Odoo",
       "description": "Open-source business apps.",
@@ -736,6 +748,7 @@
       ]
     },
     {
+      "id": 13,
       "type": 3,
       "title": "My Odoo",
       "description": "Open-source business apps.",
@@ -816,6 +829,7 @@
       ]
     },
     {
+      "id": 14,
       "type": 3,
       "title": "OpenLDAP",
       "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol",
@@ -906,6 +920,7 @@
       ]
     },
     {
+      "id": 15,
       "type": 3,
       "title": "OpenLDAP 2",
       "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol",
@@ -1017,6 +1032,7 @@
       ]
       },
       {
+      "id": 16,
       "type": 3,
       "title": "Phorge",
       "description": "Phorge is a collection of web applications which help software companies build better software.",
@@ -1093,6 +1109,7 @@
       ]
       },
       {
+      "id": 17,
       "type": 3,
       "title": "Phorge 2",
       "description": "Phorge is a collection of web applications which help software companies build better software.",
@@ -1143,6 +1160,7 @@
       ]
       },
       {
+      "id": 18,
       "type": 3,
       "title": "Redis",
       "description": "Open-source in-memory data structure store",
@@ -1227,6 +1245,7 @@
       ]
       },
       {
+      "id": 19,
       "type": 3,
       "title": "Speedtest Tracker",
       "description": "A Docker image to check your internet speed using Ookla's Speedtest service. Build using Laravel and the Speedtest CLI.",
@@ -1354,12 +1373,8 @@
         }
       ]
     },
-
-
-
-
-
     {
+      "id": 20,
       "type": 3,
       "title": "Vaultwarden",
       "description": "Vaultwarden is a trusted password manager for passwords and passkeys at home or at work, on any browser or device.",
@@ -1394,13 +1409,8 @@
         }
       ]
     },
-
-
-
-
-
-
     {
+      "id": 21,
       "type": 3,
       "title": "Weblate",
       "description": "Weblate is a Web based localization tool with tight version control integration",
@@ -1587,6 +1597,7 @@
       ]
     },
     {
+      "id": 22,
       "type": 3,
       "title": "Windows",
       "description": "Windows inside a Docker container.",
@@ -1687,6 +1698,7 @@
       ]
     },
     {
+      "id": 23,
       "type": 3,
       "title": "WireGuard",
       "description": "WireGuard is a communication protocol and free and open-source software that implements encrypted virtual private networks, and was designed with the goals of ease of use, high speed performance, and low attack surface.",
@@ -1776,6 +1788,7 @@
       ]
     },
     {
+      "id": 24,
       "type": 3,
       "title": "WireHole",
       "description": "WireHole is a combination of WireGuard, Pi-hole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities thanks to Pi-hole, and DNS caching, additional privacy options, and upstream providers via Unbound.",
@@ -1883,6 +1896,7 @@
       ]
     },
     {
+      "id": 25,
       "type": 3,
       "title": "WordPress",
       "description": "WordPress setup with a Mariadb database",
@@ -2037,6 +2051,7 @@
       ]
     },
     {
+      "id": 26,
       "type": 3,
       "title": "Zabbix Server",
       "description": "Zabbix Server setup with postgres database.",
