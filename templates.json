@@ -2070,7 +2070,7 @@
       "title": "Vaultwarden",
       "description": "Vaultwarden is a trusted password manager for passwords and passkeys at home or at work, on any browser or device.",
       "note": "Deploys a Vaultwarden Server.",
-      "categories": ["Password Manager"],
+      "categories": ["Tools"],
       "platform": "linux",
       "logo": "https://raw.githubusercontent.com/solutema/templates/main/stacks/vaultwarden/logo/logo.png",
       "repository": {
