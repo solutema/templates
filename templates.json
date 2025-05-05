@@ -1399,8 +1399,8 @@
         },
         {
           "default": "tLAxA1UtwBBNniQEyIMNU+mLCDN+hr+7f8NGSrexD58Q+CQxWIeaEzgyJ//7b0pf",
-          "label": "Vaultwarden Admin Token",
-          "name": "VAULTWARDEN_ADMIN_TOKEN"
+          "label": "Admin Token",
+          "name": "ADMIN_TOKEN"
         },
         {
           "default": "smtp.domain.com",
