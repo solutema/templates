@@ -1413,6 +1413,11 @@
           "name": "SMTP_FROM"
         },
         {
+          "default": "Company, Inc.",
+          "label": "SMTP From Name",
+          "name": "SMTP_FROM_NAME"
+        },
+        {
           "default": "465",
           "label": "SMTP Port",
           "name": "SMTP_PORT"
@@ -1430,6 +1435,11 @@
         {
           "label": "SMTP Password",
           "name": "SMTP_PASSWORD"
+        },
+        {
+          "default": "true",
+          "label": "Signups Verify",
+          "name": "SIGNUPS_VERIFY"
         },
         {
           "default": "false",
