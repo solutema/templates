@@ -1445,11 +1445,6 @@
           "name": "PUSH_INSTALLATION_KEY"
         },
         {
-          "default": "https://www.passwords.domain.com",
-          "label": "Domain",
-          "name": "DOMAIN"
-        },
-        {
           "default": "passwords.example.com",
           "label": "Site URL",
           "name": "SITE_URL"
