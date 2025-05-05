@@ -1398,6 +1398,53 @@
           "name": "VAULTWARDEN_TAG"
         },
         {
+          "default": "tLAxA1UtwBBNniQEyIMNU+mLCDN+hr+7f8NGSrexD58Q+CQxWIeaEzgyJ//7b0pf",
+          "label": "Vaultwarden Admin Token",
+          "name": "VAULTWARDEN_ADMIN_TOKEN"
+        },
+        {
+          "default": "smtp.domain.com",
+          "label": "SMTP Host",
+          "name": "SMTP_HOST"
+        },
+        {
+          "default": "user@domain.com",
+          "label": "SMTP From",
+          "name": "SMTP_FROM"
+        },
+        {
+          "default": "465",
+          "label": "SMTP Port",
+          "name": "SMTP_PORT"
+        },
+        {
+          "default": "force_tls",
+          "label": "SMTP Security",
+          "name": "SMTP_SECURITY"
+        },
+        {
+          "default": "user@domain.com",
+          "label": "SMTP Username",
+          "name": "SMTP_USERNAME"
+        },
+        {
+          "label": "SMTP Password",
+          "name": "SMTP_PASSWORD"
+        },
+        {
+          "default": "false",
+          "label": "Push Enabled",
+          "name": "PUSH_ENABLED"
+        },
+        {
+          "label": "Push Installation ID",
+          "name": "PUSH_INSTALLATION_ID"
+        },
+        {
+          "label": "Push Installation Key",
+          "name": "PUSH_INSTALLATION_KEY"
+        },
+        {
           "default": "passwords.example.com",
           "label": "Site URL",
           "name": "SITE_URL"
