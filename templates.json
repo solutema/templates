@@ -1445,6 +1445,11 @@
           "name": "PUSH_INSTALLATION_KEY"
         },
         {
+          "default": "Company, Inc.",
+          "label": "Invitation Org Name",
+          "name": "INVITATION_ORG_NAME"
+        },
+        {
           "default": "passwords.example.com",
           "label": "Site URL",
           "name": "SITE_URL"
